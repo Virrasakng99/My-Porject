@@ -1,2 +1,2 @@
-# My-Porject
-Hii, all of my project will be posted here :) ! 
+# DICE BATTLE
+This is my first Dice Project :) ! 
