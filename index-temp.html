@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Welcome to My Dice Dimension !</h1>
+    <h2>Welcome to my Dice Dimension !</h2>
+    <div class="container">
+      <div class="dice">
+        <p class="caption"><em>Player 1</em></p>
+        <img class="img1" src="./Dice Images/dice6.png" alt="d1" />
+      </div>
+
+      <div class="dice">
+        <p class="caption"><em>Player 2</em></p>
+        <img class="img2" src="./Dice Images/dice6.png" alt="d2" />
+      </div>
+    </div>
+   
+    <div class="diceroll-container">
+      <button onclick="reloadPage()">
+        Fight!
+      </button>
+    </div> <br>
+
+    <div class="startOver-container"> 
+      <button class="startOver" onclick="location.href = 'landingPage.html'">Back To Home</button>
+    </div>
+  </body>
+   
+  
+
+  <script src="./index.js" charset="UTF-8"></script>
+  <footer>
+    &copy; Copyright by codewith.dn <NAME>. All rights reserved.
+  </footer>  
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Dimension</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Welcome to My Dice Dimension !</h1>
+    <h2 id="battleHeader" style="display: none">Are You Ready For Battle🤺?</h2>
+    <div class="container">
+      <div class="dice">
+        <p class="caption"><em>Player 1</em></p>
+        <img class="img1" src="./Dice Images/dice1.png" alt="d1" />
+      </div>
+
+      <div class="dice">
+        <p class="caption"><em>Player 2</em></p>
+        <img class="img2" src="./Dice Images/dice1.png" alt="d2" />
+      </div>
+    </div>
+    <div class="refreshbtn-container">
+      <button id="fightButton" onclick="startGame()">
+        Click Here To Fight!
+      </button>
+      <audio
+        id="soundEffect"
+        src="./sounds/mixkit-impact-of-a-strong-punch-2155.mp3"
+      ></audio>
+    </div>
+    <script src="./newgame.js" charset="UTF-8"></script>
+  </body>
+</html>

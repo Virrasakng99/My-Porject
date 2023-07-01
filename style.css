@@ -1,0 +1,130 @@
+body{
+  background-color: #2B2A4C;}
+
+h1{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color:rgb(141, 73, 209);
+  font-size: 50px;
+  font-family: 'Rubik Iso', cursive;
+  font-weight: bold;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  color:rgb(141, 73, 209);
+  font-size: 30px;
+  font-family: 'Rubik Iso', cursive;
+  font-weight: bold;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Rubik Iso', cursive;
+  font-size: 24px;
+  color:rgb(141, 73, 209);
+  background-color: #2b2a4d;
+  width: 75rem;
+  height: 50px;
+  border-color: #2B2A4C;
+} 
+
+.img1, .img2 {
+  width: 200px;
+  height: 200px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+}
+
+.gif-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.gif{
+  display: inline-block;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.gif2{
+  width: 400px;
+  height: 300px;
+}
+
+#refreshbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.refreshbtn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.diceroll-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.startOver-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.dice{ 
+  display: inline-block;
+  margin-right: 50px;
+  text-align: center;
+  
+}
+
+.caption{
+  margin-top: 10px;
+  font-size: 35px;
+  color:rgb(141, 73, 209);
+  font-family: 'Rubik Iso', cursive;
+  font-weight: bold;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+  color:rgb(141, 73, 209);
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
